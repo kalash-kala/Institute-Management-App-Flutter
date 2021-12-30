@@ -121,6 +121,11 @@ class _launchUrlDemoState extends State<lauchUrlDemo>{
 
           ],
         ),
+        floatingActionButton: FloatingActionButton(
+          onPressed:(){
+            print('Book Added');
+          } ,
+          child: Icon(Icons.add),),
       ),
     );
   }
